@@ -1,20 +1,56 @@
 .navbar > .container-fluid .navbar-brand{
   height: 100px;
-  margin-top: 50px;
+  margin-top: 30px;
   margin-left: 50px;
   font-size: 30px;
   color: white;
-}
-
-.container-fluid {
-  background-color: #3a3a3a;
-
 }
 
  .navbar-right {
   margin-right: 100px;
   margin-top: 50px;
 }
-.navbar-default .navbar-nav>li>a {
+.navbar-inverse .navbar-nav>li>a {
     color: white;
+    display: inline;
+}
+.navbar-nav >li {
+    display: inline;
+    color: white;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: bold;
+  color: black;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: lighter;
+  color: grey;
+}
+p {
+  font-size: 30px;
+}
+.thumbnail{
+  background-color: #186df7;
+}
+.thumbnail p {
+  font-size: 15px;
+  text-align: center;
+}
+.thumbnail h3 {
+  text-align: center;
+}
+.modal-title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.modal-body p {
+  font-size: 20px;
+}
+.modal-footer {
+  text-align: left;
 }
